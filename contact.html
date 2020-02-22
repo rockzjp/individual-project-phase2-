@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>contact page</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="contactpage.js"></script>
+        
+    </head>
+
+
+    <body class="contactbody">
+
+        <div class="header">
+            <ul>
+                <a href="index.html"><li class="active">Home</li></a>
+                <a href="resume.html"><li>Resume</li></a>
+                <a href="blogs.html"><li>Blog</li></a>
+                <a href="#"><li>Contact</li></a>
+            </ul>
+        </div>
+
+        
+        <div class="container-contact">
+
+            <div class="contact-box">
+                <div class="contact-left">
+                    <div id="error-message"></div>
+                    <div class="contact-word">
+                        <h3>Leave Message</h3><br>
+                        <P>Phone: 1-746-802-3435</P><br>
+                        <p>Email: rockzjp@gmail.com</p><br>
+                        <p>You also can contact me use quick form</p><br>
+                    </div>
+                </div>
+
+                <form class="contact-right" id="myform" onsubmit="return validation()">
+                    <div id="errormessage"></div>
+                    <h2 id="contact-title">Contact Us</h2>
+                    <input type="text" class="field" placeholder="Your Name" id="name">
+                    <input type="email" class="field" Placeholder="Your Email" id="email">
+                    <input type="text" class="field" Placeholder="Your Phone" id="phone">
+                    <textarea class="field" placeholder="Message" id="message"></textarea>
+                    <button class="contact-btn">Send</button>
+                    
+                </form>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="footer">
+            <p>Copy right @ JianPIng Zuo</p>
+        </div>
+    </body>
+</html>

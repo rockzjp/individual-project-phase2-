@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html { 
+    background: url(../image/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+
+.proof-box{
+    width: 550px;
+    height: 550px;
+    background: rgba(245, 245, 243, .4); 
+    padding: 40px ;
+    color: white;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+}
+
+
+h1{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 6;
+    font-size: 40px;
+}
+
+
+p{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1;
+    padding-top: 40px;
+}
+
+
+.resume-btn{
+    margin: 30px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.header .navbar ul li{
+    color: lawngreen;
+}
+.header .navbar ul li a{
+    text-decoration: none;
+}
+
+.header *{
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+
+/*-----header----*/
+
